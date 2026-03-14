@@ -1,2 +1,8 @@
-'use strict'
+"use strict";
 
+const menuIcon = document.querySelector(".menu-icon");
+const hamburgerMenu = document.querySelector(".hamburger-menu");
+
+menuIcon.addEventListener("click", () => {
+  hamburgerMenu.classList.toggle("change");
+});
